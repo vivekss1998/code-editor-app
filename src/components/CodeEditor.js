@@ -21,6 +21,9 @@ const CodeEditor = () => {
       if (clipboard.copied) {
         alert('Code copied to clipboard');
       }
+      else {
+        alert('Code copied to clipboard');
+      }
     }
   };
 
