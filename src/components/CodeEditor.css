@@ -1,0 +1,88 @@
+/* src/components/CodeEditor.css */
+
+/* Block */
+.code-editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px; /* Add rounded corners */
+  }
+  
+  /* Element */
+  .code-editor__input {
+    width: 100%;
+    min-height: 200px;
+    border: none;
+    resize: none;
+    border-radius: 5px; /* Add rounded corners to the textarea */
+  }
+  
+  .code-editor__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* Modifier */
+  .code-editor--locked {
+    background-color: #e0e0e0;
+  }
+  
+  .code-editor__button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .code-editor__button--copy {
+    background-color: #007bff;
+  }
+  
+  .code-editor__button--save {
+    background-color: #28a745;
+  }
+  
+  .code-editor__button--lock {
+    background-color: #dc3545;
+  }
+
+  /* src/components/CodeEditor.css */
+
+/* Add margins between buttons */
+.code-editor__button {
+    margin-right: 10px;
+  }
+  
+  /* You can also add spacing to specific buttons */
+  .code-editor__button--copy {
+    margin-right: 10px;
+  }
+  
+  .code-editor__button--save {
+    margin-right: 10px;
+  }
+  
+  .code-editor__button--lock {
+    margin-right: 10px;
+  }
+  
+  /* Style the "Increase Indent" and "Decrease Indent" buttons */
+  .code-editor__button--increase-indent {
+    background-color: #ffc107; /* Yellow color for Increase Indent */
+  }
+  
+  .code-editor__button--decrease-indent {
+    background-color: #17a2b8; /* Turquoise color for Decrease Indent */
+  }
+  
+  
+  /* Icon styles */
+  .code-editor__icon {
+    margin-right: 5px;
+  }
+  
